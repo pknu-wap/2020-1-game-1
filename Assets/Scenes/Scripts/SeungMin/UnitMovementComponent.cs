@@ -33,7 +33,7 @@ public class UnitMovementComponent : MonoBehaviour
 
     private void OnEnable()
     {
-        player = GameObject.Find("Player");
+        player = GameObject.Find("Player"); 
         attackComponent = GetComponent<UnitAttackComponent>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         navMeshAgent.speed = speed;
